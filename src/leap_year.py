@@ -1,4 +1,7 @@
-def is_leap_year():
+from tkinter import BooleanVar
+
+
+def is_leap_year()->bool:
 
     year : int= int(input("Ingrese un año: "))  # type: ignore
     if year % 4==0:
